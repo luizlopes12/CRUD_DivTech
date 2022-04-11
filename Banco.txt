@@ -1,0 +1,10 @@
+create database crud_php;
+use crud_php;
+
+create table fornecedores(
+id int not null auto_increment,
+nome varchar(100) not null,
+cnpj varchar(14) not null,
+especialidade varchar(50) not null,
+primary key(id)
+);
